@@ -26,11 +26,11 @@ class ProductListScreen extends StatelessWidget {
       initialData: productBloc.getAll(),
       stream: productBloc.getStream,
       builder: (context, snapshot) {
-        return snapshot.data.length > 0
-            ? buildProductListItems(snapshot)
-            : Center(
-                child: Text("Veri yok"),
-              );
+        if (snapshot.hasData) {
+          return buildProductListItems(snapshot);
+        } else {
+          return Center(child: Text("Data has not!"));
+        }
       },
     );
   }

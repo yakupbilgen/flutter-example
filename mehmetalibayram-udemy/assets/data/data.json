@@ -1,0 +1,41 @@
+[
+    {
+        "okulno": 123,
+        "ad": "Yakup",
+        "soyad": "Bilgen",
+        "cinsiyet": "Erkek",
+        "basarili": false,
+        "veli": {
+            "ad": "Ali",
+            "soyad": "Bilgen",
+            "yakinlik": "Baba",
+            "telno": 123456789
+        }
+    },
+    {
+        "okulno": 234,
+        "ad": "Ali",
+        "soyad": "Veli",
+        "cinsiyet": "Erkek",
+        "basarili": true,
+        "veli": {
+            "ad": "Ahmet",
+            "soyad": "Veli",
+            "yakinlik": "Amca",
+            "telno": 111222333
+        }
+    },
+    {
+        "okulno": 345,
+        "ad": "Ayşe",
+        "soyad": "Demir",
+        "cinsiyet": "Kadın",
+        "basarili": true,
+        "veli": {
+            "ad": "Fatma",
+            "soyad": "Demir",
+            "yakinlik": "Abla",
+            "telno": 333444222
+        }
+    }
+]
